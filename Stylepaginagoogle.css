@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@200&display=swap');
+
+body{
+    font-family: 'DynaPuff', cursive;
+}
+
 header h1 {
     font-size: 12px;
     color: #535151;
-    padding-left: 1130px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1000px;
     display: inline-block
 }
 
@@ -14,6 +19,7 @@ header img {
     width: 20%;
     margin: auto;
     display: block;
+    margin-top: 100px;
 }
 
 .box {
@@ -33,7 +39,7 @@ header img {
 #search {
     border: none;
     outline: none;
-    margin-right: 220px;
+    margin-right: 90px;
 }
 
 .box img {
@@ -46,15 +52,17 @@ header img {
 #botonbusqueda {
 
     background: rgb(247, 245, 245);
-    margin-left: 540px;
+    margin-left: 450px;
     margin-right: 5px;
     margin-top: 30px;
     border: none;
     padding-top: 10PX;
     padding-bottom: 10px;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #4f5253;
+}
+#botonbusqueda:hover{
+    color: #0e29a3;
 }
 
 #botonsuerte {
@@ -66,23 +74,22 @@ header img {
     padding-top: 10PX;
     padding-bottom: 10px;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #4f5253;
 }
-
+#botonsuerte:hover{
+    color: #0e29a3;
+}
 #ofrecido {
 
     display: inline-block;
-    margin-left: 540px;
+    margin-left: 450px;
     font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #español {
     display: inline-block;
     color: #0e29a3;
     font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #colombia {
@@ -90,7 +97,6 @@ header img {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #7f7f80;
     border-bottom: 1px solid;
@@ -106,7 +112,6 @@ footer {
     display: inline-block;
     margin-left: 0px;
     font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #7f7f80;
 
 }
@@ -115,6 +120,5 @@ footer {
     display: inline-block;
     color: #7f7f80;
     font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 710px;
+    margin-left: 600px;
 }
